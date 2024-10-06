@@ -1,0 +1,641 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Welcome to Chandrajit's Portfolio, Here you will know about me and my work and also about how to make your Portfolio.">
+    <meta name="keywords"  content=" portfolio, projects, webdevelopment, technologies, best portfolio">
+    <meta name="robots" content="index, follow">
+    <title>Chandrajit Patel's Portfolio</title>
+    <link
+      rel="stylesheet"
+      href="./assets/vendor/bootstrap/css/bootstrap.min.css"
+    />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playwrite+DE+Grund:wght@100..400&display=swap"
+      rel="stylesheet"
+    />
+    <!-- AOS for slide effect -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+
+    <link rel="stylesheet" href="assets/css/style.css" />
+  </head>
+  <body>
+    <!-- Header -->
+    <header class="main-header">
+      <nav class="navbar header-nav navbar-expand-lg">
+        <div class="container">
+          <!-- my brand name -->
+          <a href="#" class="navbar-brand">
+            <h1 class="mb-0 my-name">
+              Chandr<span class="text-danger">ajit Pat</span>el
+            </h1>
+          </a>
+          <!-- menu bar -->
+          <div
+            class="collapse navbar-collapse justify-content-end"
+            id="navbar-coll-togg"
+          >
+            <ul class="navbar-nav mx-auto">
+              <li>
+                <a href="#home" class="nav-link">Home</a>
+              </li>
+              <li>
+                <a href="#about" class="nav-link">About</a>
+              </li>
+              <li>
+                <a href="#skill" class="nav-link">Skills</a>
+              </li>
+              <li>
+                <a href="#projects" class="nav-link">Projects</a>
+              </li>
+              <li>
+                <a href="https://chandrajit19.github.io/My-resume/" target="_blank" class="nav-link">Resume</a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="ms-auto d-none d-lg-block">
+            <a class="colored-btn" href="#contact">Contact me</a>
+          </div>
+
+          <!-- mobile menu toggle -->
+          <button
+            type="button"
+            class="navbar-toggler collapsed"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbar-coll-togg"
+          >
+            <span></span>
+            <span></span>
+            <span></span>
+          </button>
+        </div>
+      </nav>
+    </header>
+
+    <!-- Main -->
+
+    <main>
+      <!-- Home section -->
+      <section id="home" class="home-section bg-gray">
+        <div class="container">
+          <div class="anim-elements">
+            <div class="anim-element"><i class="bx bxl-html5"></i></div>
+            <div class="anim-element"><i class="bx bxl-css3"></i></div>
+            <div class="anim-element"><i class="bx bxl-react"></i></div>
+            <div class="anim-element"><i class="bx bxl-bootstrap"></i></div>
+            <div class="anim-element"><i class="bx bxl-javascript"></i></div>
+          </div>
+
+          <div class="row gy-5 align-items-center">
+            <div class="col-lg-6">
+              <div class="home-intro text-center text-lg-start">
+                <h2>Hi, My name is Chandrajit</h2>
+                <h3>I'm a <span id="type-it"></span></h3>
+                <p>I am working as front-end Engineer</p>
+
+                <div class="ms-auto d-inline-block">
+                  <a href="#contact" class="colored-btn" >Contact me</a>
+                  
+                </div>
+                
+              </div>
+            </div>
+            
+            <div class="col-lg-6 pt-4 pt-lg-0" >
+              <div class="home-image text-center"  data-aos="fade-up" data-aos-delay="300">
+                <img src="./assets/img/my-profile.png" alt="profile" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- About section -->
+      <section id="about" class="section">
+        <div class="container">
+          <div class="row align-items-center">
+            <div class="col-lg-6 text-center" data-aos="fade-up" data-aos-delay="200">
+              <img src="./assets/img/abbout.webp" alt="about" />
+            </div>
+
+            <div class="col-lg-6 ps-lg-5">
+              <div class="about-text">
+                <h3 class="mb-3 text-dark fw-semibold">
+                  I'm a passionate Front-End developer
+                </h3>
+                <p>
+                  Hello there! I'm Chandrajit Patel, a passionate web developer
+                  and designer dedicated to crafting exceptional digital
+                  experiences. With expertise in HTML, CSS, JavaScript, and
+                  React, I specialize in creating visually stunning and highly
+                  functional websites that leave a lasting impression.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- My Skills Section -->
+
+      <section id="skill" class="section">
+        <div class="container">
+          <div class="row gy-5">
+            <div class="col-lg-6">
+              <div class="section-heading text-start">
+                <h2>My Skills</h2>
+              </div>
+              <div class="skill-box">
+                <div class="row g-3">
+                  <div class="col-6 col-md-6 col-lg-6">
+                    <div class="feature-box feature-box-small" data-aos="fade-up" data-aos-delay="100">
+                      <div class="icon">
+                        <i class="bx bxl-html5"></i>
+                      </div>
+                      <h6>HTML</h6>
+                    </div>
+                  </div>
+
+                  <div class="col-6 col-md-6 col-lg-6">
+                    <div class="feature-box bg-warning feature-box-small" data-aos="fade-up" data-aos-delay="100">
+                      <div class="icon">
+                        <i class="bx bxl-css3"></i>
+                      </div>
+                      <h6>CSS</h6>
+                    </div>
+                  </div>
+                  
+                  <div class="col-6 col-md-6 col-lg-6">
+                    <div class="feature-box bg-success feature-box-small" data-aos="fade-up" data-aos-delay="200">
+                      <div class="icon">
+                        <i class="bx bxl-javascript"></i>
+                      </div>
+                      <h6>JavaScript</h6>
+                    </div>
+                  </div>
+
+
+                  <div class="col-6 col-md-6 col-lg-6">
+                    <div class="feature-box bg-info feature-box-small" data-aos="fade-up" data-aos-delay="200">
+                      <div class="icon">
+                        <i class="bx bxl-react"></i>
+                      </div>
+                      <h6>React JS</h6>
+                    </div>
+                  </div>
+
+                
+
+                  <div class="col-6 col-md-6 col-lg-6">
+                    <div class="feature-box bg-danger feature-box-small" data-aos="fade-up" data-aos-delay="300">
+                      <div class="icon">
+                        <i class="bx bxl-bootstrap"></i>
+                      </div>
+                      <h6>Bootstrap</h6>
+                    </div>
+                  </div>
+
+                  <div class="col-6 col-md-6 col-lg-6">
+                    <div class="feature-box bg-secondary feature-box-small" data-aos="fade-up" data-aos-delay="300">
+                      <div class="icon">
+                        <i class="bx bxl-github"></i>
+                      </div>
+                      <h6>GitHub</h6>
+                    </div>
+                  </div>
+
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-6 text-center pt-5 skill-img" data-aos="fade-down" data-aos-delay="200">
+              <img src="./assets/img/skill.webp" alt="">
+            </div>
+
+          </div>
+        </div>
+      </section>
+
+<!-- Projects section -->
+      <section id="projects">
+        <div class="container project-sec">
+          <h2 class="text-center fw-bold mb-4">LATEST PROJECTS</h2>
+             
+
+                 <!-- First project -->
+            <div class="row shadow p-4">
+              <!-- projects image -->
+              <div
+                  class="col-lg-6 border-end-4 border-start-4 border-primary you-tube" data-aos="fade-up" data-aos-delay="100">
+                <img src="./assets/img/Ctech.webp" alt="Ctech" />
+              </div>
+              
+              <!-- projects details -->
+              <div class="col-lg-6">
+                <h3 class="bg-warning rounded-1 text-center">Tech Website</h3>
+                <h4 class="">Technologies Used:</h4>
+
+                <p>
+                  <span class="fw-semibold">HTML: </span> For creating the
+                  structure and content<br/>
+                  <span class="fw-semibold"> CSS: </span> For styling and layout <br>
+                  <span class="fw-semibold"> JavaScript: </span> JavaScript brings interactivity to websites, allowing dynamic features like form validation, animations, and user-driven actions. It transforms static web pages into interactive, user-friendly experiences.
+                </p>
+
+                <p>
+                  I have built a fully responsive website using HTML, CSS, and JavaScript. The site adapts to various screen sizes, offering a smooth user experience across desktops, tablets, and mobile devices. It features a clean, modern design with optimized performance and interactive elements, demonstrating my skills in front-end web development.
+                </p>
+                <div>
+                  <a href="https://github.com/chandrajit19/C-Technology" class="colored-btn"> GitHub </a> &nbsp; &nbsp;
+                  <a href="https://chandrajit19.github.io/C-Technology/" class="colored-btn">LIVE DEMO</a>
+                </div>
+              </div>
+              
+            </div>
+                 <!-- Second projects -->
+          <div class="row shadow p-4">
+           
+            <!-- Project details -->
+            <div class="col-lg-6">
+              <h3 class="bg-warning rounded-1 text-center">YouTube Clone</h3>
+              <h4 class="">Technologies Used:</h4>
+
+              <p>
+                <span class="fw-semibold">HTML: </span> For creating the
+                structure and content<br />
+                <span class="fw-semibold"> CSS: </span> For styling and layout
+              </p>
+
+              <p>
+                This YouTube clone project exemplifies my dedication to web
+                development and my capability to recreate modern, professional
+                interfaces. It serves as a testament to my proficiency in
+                front-end development and my keen eye for design detail.
+              </p>
+              <div>
+                <a href="https://github.com/chandrajit19/Youtube-clone" class="colored-btn"> GitHub </a> &nbsp; &nbsp;
+                <a href="https://chandrajit19.github.io/Youtube-clone/" class="colored-btn">LIVE DEMO</a>
+              </div>
+            </div>
+
+            <!-- projects image -->
+                <div
+                  class="col-lg-6 border-end-4 border-start-4 border-primary you-tube" data-aos="fade-up" data-aos-delay="100"
+                >
+                  <img src="./assets/img/Youtub.webp" alt="" />
+                </div>
+          </div>
+                <!-- Project end-->
+
+          
+               <!-- Third project -->
+          <div class="row shadow p-4">
+            <!-- projects image -->
+            <div
+                class="col-lg-6 border-end-4 border-start-4 border-primary you-tube" data-aos="fade-up" data-aos-delay="100">
+              <img src="./assets/img/myntr.webp" alt="" />
+            </div>
+            
+            <!-- projects details -->
+            <div class="col-lg-6">
+              <h3 class="bg-warning rounded-1 text-center">Myntra Clone</h3>
+              <h4 class="">Technologies Used:</h4>
+
+              <p>
+                <span class="fw-semibold">HTML: </span> Structured content with semantic elements for improved accessibility.<br />
+                <span class="fw-semibold"> CSS: </span>Custom styles to enhance visual appeal and provide a cohesive user experience.
+              </p>
+
+              <p>
+                "Myntra" is a thoughtfully designed webpage created using HTML and CSS. The project showcases my skills in web development, focusing on clean, responsive design, and user-friendly navigation.
+              </p>
+              <div>
+                <a href="https://github.com/chandrajit19/Myntra-clone" class="colored-btn"> GitHub </a> &nbsp; &nbsp;
+                <a href="https://chandrajit19.github.io/Myntra-clone/" class="colored-btn">LIVE DEMO</a>
+              </div>
+            </div>
+            
+          </div>
+              <!-- project end  -->
+
+
+
+          <!-- Fourth project -->
+        <div class="row shadow p-4">
+                  
+          <!-- Project details -->
+          <div class="col-lg-6">
+            <h3 class="bg-warning rounded-1 text-center">Calculator</h3>
+            <h4 class="">Technologies Used:</h4>
+
+            <p>
+              <span class="fw-semibold">HTML: </span> Provides the basic structure of the calculator.<br />
+              <span class="fw-semibold"> CSS: </span>  Adds styling to ensure a clean and user-friendly interface.
+              <br />
+              <span class="fw-semibold"> JavaScript: </span> Implements the functionality to perform arithmetic operations.
+            </p>
+
+            <p>
+              Check out the calculator to see my proficiency in combining HTML, CSS, and JavaScript to build interactive web applications.
+            </p>
+            <div>
+              <a href="https://github.com/chandrajit19/Calculator.v2" class="colored-btn"> GitHub </a> &nbsp; &nbsp;
+              <a href="https://chandrajit19.github.io/Calculator.v2/" class="colored-btn">LIVE DEMO</a>
+            </div>
+          </div>
+
+          <!-- projects image -->
+              <div
+                class="col-lg-6 border-end-4 border-start-4 border-primary you-tube" data-aos="fade-up" data-aos-delay="100"
+              >
+                <img src="./assets/img/kl.webp" alt="klc" />
+              </div>
+        </div>
+     <!-- Project end-->
+
+
+         <!-- Fifth project -->
+      <div class="row shadow p-4">
+        <!-- projects image -->
+        <div
+            class="col-lg-6 border-end-4 border-start-4 border-primary you-tube" data-aos="fade-up" data-aos-delay="100">
+          <img src="./assets/img/rock-pape.webp" alt="rock-paper" />
+        </div>
+        
+        <!-- projects details -->
+        <div class="col-lg-6">
+          <h3 class="bg-warning rounded-1 text-center"> Rock-Paper-Scissors Game</h3>
+          <h4 class="">Technologies Used:</h4>
+
+          <p>
+            <span class="fw-semibold">HTML: </span>Structures the content and elements of the game.<br />
+            <span class="fw-semibold"> CSS: </span> Provides styling to create an attractive and user-friendly game interface. <br>
+            <span class="fw-semibold"> JavaScript: </span> Implements the functionality to perform arithmetic operations.
+          </p>
+
+          <p>
+            The Rock-Paper-Scissors game is an engaging web application created with HTML, CSS, and JavaScript. This project highlights my capability to develop interactive and entertaining user experiences. Play the Rock-Paper-Scissors game to see how I integrate HTML, CSS, and JavaScript to create fun and interactive web applications.
+          </p>
+          <div>
+            <a href="https://github.com/chandrajit19/Rock_paper_scissers" class="colored-btn"> GitHub </a> &nbsp; &nbsp;
+            <a href="https://chandrajit19.github.io/Rock_paper_scissers/" class="colored-btn">LIVE DEMO</a>
+          </div>
+        </div>
+        
+      </div>
+       <!-- project end  -->
+
+
+
+       <!-- Sixth project -->
+        <div class="row shadow p-4">
+                  
+          <!-- Project details -->
+          <div class="col-lg-6">
+            <h3 class="bg-warning rounded-1 text-center">Fingers Play Game</h3>
+            <h4 class="">Technologies Used:</h4>
+
+            <p>
+              <span class="fw-semibold">HTML: </span>Sets up the structure of the game interface.<br />
+              <span class="fw-semibold"> CSS: </span>Styles the game to ensure a visually appealing and user-friendly experience. <br>
+              <span class="fw-semibold"> JavaScript: </span>Implements the game logic, using Math.random to add randomness and excitement to the gameplay.
+            </p>
+
+            <p>
+              The Fingers Play game is an entertaining web application created using HTML, CSS, and JavaScript. Utilizing Math.random, this game demonstrates my skills in creating dynamic and interactive experiences.Try the Fingers Play game to experience my ability to create engaging and interactive web applications using HTML, CSS, and JavaScript.
+            </p>
+            <div>
+              <a href="https://github.com/chandrajit19/FingerGame.git" class="colored-btn"> GitHub </a> &nbsp; &nbsp;
+              <a href="https://chandrajit19.github.io/FingerGame/" class="colored-btn">LIVE DEMO</a>
+            </div>
+          </div>
+
+          <!-- projects image -->
+              <div
+                class="col-lg-6 border-end-4 border-start-4 border-primary you-tube" data-aos="fade-up" data-aos-delay="100"
+              >
+                <img src="./assets/img/finge.webp" alt="finger-game" />
+              </div>
+        </div>
+       <!-- Project end-->
+
+
+       <!-- Seventh project -->
+      <div class="row shadow p-4">
+        <!-- projects image -->
+        <div
+            class="col-lg-6 border-end-4 border-start-4 border-primary you-tube" data-aos="fade-up" data-aos-delay="100">
+          <img src="./assets/img/todo-cs.webp" alt="to-do-list" />
+        </div>
+        
+        <!-- projects details -->
+        <div class="col-lg-6">
+          <h3 class="bg-warning rounded-1 text-center">To-Do List Application</h3>
+          <h4 class="">Technologies Used:</h4>
+
+          <p>
+            <span class="fw-semibold">HTML: </span>Provides the structure for the task list and input elements.
+            structure and content<br />
+            <span class="fw-semibold"> CSS: </span>Styles the application to ensure a clean and organized user interface.
+            <br>
+            <span class="fw-semibold"> JavaScript: </span>
+            Implements the functionality to add, remove, and manage tasks dynamically.
+          </p>
+
+          <p>
+            The To-Do List application is a practical web application designed to help users manage their tasks efficiently. Created using HTML, CSS, and JavaScript, this project highlights my skills in building functional and user-friendly web applications.
+          </p>
+          <div>
+            <a href="https://github.com/chandrajit19/to-do-website.git" class="colored-btn"> GitHub </a> &nbsp; &nbsp;
+            <a href="https://chandrajit19.github.io/to-do-website/" class="colored-btn">LIVE DEMO</a>
+          </div>
+        </div>
+        
+      </div>
+       <!-- project end  -->
+
+
+
+     <!-- Last projects -->
+      <div class="row shadow p-4">
+                
+        <!-- Project details -->
+        <div class="col-lg-6">
+          <h3 class="bg-warning rounded-1 text-center"> To Do List with Date Application</h3>
+          <h4 class="">Technologies Used:</h4>
+
+          <p>
+            <span class="fw-semibold">HTML: </span>Provides the structure for the task list, time input elements, and other necessary components.<br />
+            <span class="fw-semibold"> CSS: </span>  Ensures a visually appealing and user-friendly interface through custom styles.
+            <br>
+            <span class="fw-semibold"> JavaScript: </span>
+            Implements the functionality to add, remove, and manage tasks dynamically.
+          </p>
+
+          <p>
+            The To-Do List with Time application is an enhanced version of a task management tool that allows users to add deadlines or specific times to their tasks. This application, built using HTML, CSS, and JavaScript, showcases my ability to create advanced, feature-rich web applications.
+          </p>
+          <div>
+            <a href="https://github.com/chandrajit19/To-do-list.git" class="colored-btn"> GitHub </a> &nbsp; &nbsp;
+            <a href="https://chandrajit19.github.io/To-do-list/" class="colored-btn">LIVE DEMO</a>
+          </div>
+        </div>
+
+        <!-- projects image -->
+            <div
+              class="col-lg-6 border-end-4 border-start-4 border-primary you-tube" data-aos="fade-up" data-aos-delay="100"
+            >
+              <img src="./assets/img/to-d.webp" alt="to-do-list-date" />
+            </div>
+      </div>
+     <!-- Project end-->
+  <!-- Project section end here -->
+
+        </div>
+      </section>
+
+     <!-- Contact Section  -->
+      <section id="contact" class="section bg-dark">
+        <div class="container ">
+            <div class="row gy-5">
+                <div class="col-lg-6">
+                    <div class="contact-form">
+                        <h2 class="text-dark">Get in touch</h2>
+                        <p>Please don't hesitate to reach out to me by filling out the form below. I'll make sure to respond to your message promptly..</p>
+                        <form action="https://formspree.io/f/xleqyrgj" method="post">
+                            <div class="row gy-4 gx-3">
+                                <div class="col-12">
+                                    <div class="form-group">
+                                        <label class="form-label" for="name">Name</label>
+                                        <input type="text" class="form-control" name="name" id="name" required>
+                                    </div>
+                                </div>
+                                 
+                                <div class="col-12">
+                                    <div class="form-group">
+                                        <label class="form-label" for="email">Email</label>
+                                        <input type="email" class="form-control " name="email" id="email" required>
+                                    </div>
+                                </div>
+
+                                <div class="col-12">
+                                    <div class="form-group">
+                                        <label class="form-label" for="subject">Subject</label>
+                                        <input type="text" class="form-control" name="subject" id="subject">
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <div class="form-group">
+                                        <label class="form-label" for="message">Message</label>
+                                        <textarea name="message" rows="3" class="form-control" id="message"></textarea>
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <button type="submit" class="colored-btn">Send me</button>
+                                </div>
+
+                            </div>
+                        </form>
+                    </div>
+                </div>
+ 
+
+                <div class="col-lg-5  mx-auto  col-xl-4">
+                    <div class="pb-5 d-none d-md-block  " data-aos="zoom-in" data-aos-delay="100">
+                        <img src="./assets/img/getin.png" class="w-100" alt="get in touch">
+
+                    </div>
+                    
+                    <ul class="contact-info">
+                       <li>
+                        <div class="icon bg-danger">
+                          <i class="bx bx-phone"></i>
+                        </div>
+                        <div class="col ps-3">
+                           <h5>Phone</h5>
+                           <p>+91 7525 8903 45</p>
+                        </div>
+                       </li>
+
+                       <li>
+                        <div class="icon bg-info">
+                          <i class="bx bx-envelope"></i>
+                        </div>
+                        <div class="col ps-3">
+                           <h5>Email</h5>
+                           <p>chandrajit127@gmail.com</p>
+                        </div>
+                       </li>
+
+                       <li>
+                        <div class="icon bg-success">
+                          <i class="bx bx-map"></i>
+                        </div>
+                        <div class="col ps-3">
+                           <h5>Home</h5>
+                           <p>Lamhi Varanasi UP  -221007</p>
+                        </div>
+                       </li>
+
+                    </ul>
+                </div>
+            </div>
+        </div>
+      </section>
+
+    </main>
+<!-- 
+      Footer -->
+
+      <footer class="footer">
+          <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-6 py-2">
+                    <div class="nav justify-content-center justify-content-md-start">
+                        <a href="https://www.facebook.com/chandrajit.patel.10/"><i class="bx bxl-facebook"></i></a>
+                        <a href="https://x.com/Chandrajit98"><i class="bx bxl-twitter"></i></a>
+                        <a href="https://www.instagram.com/is_it_ninja_/?hl=en"><i class="bx bxl-instagram"></i></a>
+                        <a href="https://www.linkedin.com/in/chandra98/"><i class="bx bxl-linkedin"></i></a>
+                        <a href="https://github.com/chandrajit19"><i class="bx bxl-github"></i></a>
+                    </div>
+                </div>
+                <div class="col-md-6 py-2 text-center text-md-end">
+                   <p class="m-0">&copy; 2024 Copyright all right reserved | Developed By <a href="#" style="font-family: cursive;">Chandrajit</a></p>
+                </div>
+
+            </div>
+          </div>
+
+          <!-- scroll to top button -->
+          <button onclick="scrollToTop()" class="scroll-to--top" id="scroll-top--btn" title="Go to top">
+            
+          </button>
+      </footer>
+
+    <script src="./assets/vendor/bootstrap/js/bootstrap.min.js"></script>
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+
+    <script src="./assets/js/script.js"></script>
+
+    <!-- for animated text -->
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+      var typed = new Typed("#type-it", {
+        strings: ["Developer", "Designer"],
+        typeSpeed: 80,
+        loop: true,
+      });
+    </script>
+    <!-- end of animated text -->
+  </body>
+</html>
