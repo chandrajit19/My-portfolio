@@ -38,9 +38,18 @@ a:hover{
     
 }
 .my-name{
-    font-size: 25px;
+    font-size: 30px;
     font-weight: 600;
     letter-spacing: 2px;
+    font-variant: small-caps; 
+    font-family:'Courier New', Courier, monospace;  
+}
+.my-name:hover {
+    color: red; /* Jo black text tha, wo red ho jayega */
+}
+
+.my-name:hover .text-danger {
+    color: black !important; /* Jo red text tha, wo black ho jayega */
 }
 
 .main-header .navbar{
@@ -567,10 +576,12 @@ letter-spacing: 1.5px;
 .footer .nav a{
     font-size: 20px;
     color: rgba(255, 255, 255, 0.71);
+    transition: all .3s linear;
 }
 
 .footer .nav a:hover{
     color: var(--primary-color);
+    scale: 1.4;
 }
 .footer .nav a+a{
     margin-left: 18px;
